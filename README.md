@@ -52,27 +52,23 @@ Powered By Flat UI
 <p>清泽心雨整合支持多终端发布、多内容采集、多模式应用等一体化应用的数字“全媒体”，建设运用即时通讯、移动互联网、云计算等新兴技术的思政云导航系统，促进网络教育资源利用层次不断提高。
 今后清泽心雨将大力弘扬社会主义核心价值观，引导广大青年学生凝心聚力实现最美中国梦！</p>
 <div style="test-align;center;">
-<p>
- <lable for="my name">姓名：</lable>
-</p>
-<input type="text" value="1" name="my name"/>
-<p>
- <lable for="class">班级：</lable>
-</p>
-<input type="text" value="1" name="class"/>
-<p>
- <lable for="college">学院：</lable>
- </p>
- <input type="text" value="2" name="college"/>
-<p>
- <lable for="telephone number">电话号码：</lable>
-</p>
- <input type="text" value="2" name="telephone number"/>
- <p>
- <lable for="email">邮箱地址：</lable>
- </p>
- <input type="text" value="3" name="email"/>
- <p>
+
+<form>
+  姓名：
+  <input type="text" name="myName">
+  <br/>
+  班级：
+<input type="text"  name="class"/>
+<br/>
+  学院：
+ <input type="text"  name="college"/>
+ <br/>
+  电话号码;
+ <input type="text"  name="telephone number"/>
+ <br/>
+  邮箱地址：
+ <input type="text"  name="email"/>
+ 
   <lable>意向部门：</lable>
   <select>
     <optgroup lable="网络安全部“>
